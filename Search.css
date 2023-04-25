@@ -1,0 +1,26 @@
+.inputSearch, .buttonSearch {
+    background-color: black;
+    color: rgb(223, 211, 211);
+    margin: 5px;
+    padding: 5px;
+}
+
+.buttonSearch{
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputSearch{
+    width: 70%;
+}
+
+@media screen and (max-width:666px){
+
+    .inputSearch{
+        width: 90%;
+        display: block;
+        padding: 2px;
+    }
+
+}

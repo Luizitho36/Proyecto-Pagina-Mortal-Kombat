@@ -1,0 +1,31 @@
+.divVideos{
+    flex-direction: row;
+    margin: 5px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+
+.videoMK{
+    display: inline-block;
+    margin: 4px;
+    width: 610px;
+}
+
+.slider video {
+    margin: 0 auto;
+  }
+
+@media screen and (max-width:760px){
+    .videoMK{
+        margin: auto;
+        width: auto;
+    }   
+}

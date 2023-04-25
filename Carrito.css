@@ -1,0 +1,45 @@
+.carrito-container {
+  background-color: black;
+  margin-top: 55px;
+  font-size: 25px;
+  color: #7ab3c3;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 2px solid red;
+  width: 50%;
+  padding: 15px;
+}
+
+.boton-comprar {
+  background-color: rgb(203, 222, 222);
+  font-size: 26px;
+  color: #052550;
+  border: 2px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0px 0px 0px;
+}
+
+.boton-comprar:hover {
+  background-color: rgb(137, 182, 182);
+  font-size: 26px;
+  color: #123664;
+  border: 2px solid rgb(231, 214, 214);
+}
+
+@media screen and (max-width: 550px) {
+  .carrito-container {
+    margin-top: 55px;
+    font-size: 10px;
+    color: #7ab3c3;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 50%;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.divGraciasPorSuCompra {
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+    color: rgb(234, 226, 243);
+    text-align: center;
+    margin: auto;
+    max-width: 75%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:650px){
+    .divGraciasPorSuCompra {
+        font-size: 28px;
+        max-width: 90%;
+    }
+}

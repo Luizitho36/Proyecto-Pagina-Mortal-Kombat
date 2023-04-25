@@ -1,0 +1,36 @@
+.divContenedor{
+    display: flex;
+    background: rgb(26, 25, 25);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
+.home_imagen {
+    height: 450px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px 15px;
+    height:auto;
+
+}
+
+@media screen and (max-width:1000px){
+
+    .divContenedor{
+        background-size: unset;
+        display: block;
+    }
+
+    .home_imagen {
+        width: 90%;
+    }
+
+}
